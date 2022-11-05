@@ -1,0 +1,71 @@
+<!-- home page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyrianDate</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Jquery.js"></script>
+</head>
+<body>
+    <div class=" width-100 height-60st small-nav bg-orang pos-fixed top-0 left-0 zind3 box-shadow-003"><!--navbar-->
+       <div class="width-80 flex-row justify-sb align-center mar-auto">
+            <div><!--logo-->
+                <a href="index.html"><img src="src/rendezvous-point-flat-icon-rendezvous-point-flat-icon-vector-sign-map-pointer-heart-colorful-pictogram-isolated-white-195588690.jpg" alt="logo image" class="width-50st small-logo mar-t-5st border-rad-50st  hover-effect"></a>
+            </div>
+            <div class=" flex-row txt-capital width-auto"><!--navbar dive-->
+                <div class="small-nb width-60st height-60st  flex-col justify-center align-center pad-5st">
+                    <div class="width-70 height-5st bg-white mar-5st"></div>
+                    <div class="width-70 height-5st bg-white mar-5st"></div>
+                    <div class="width-70 height-5st bg-white mar-5st"></div>
+                </div>
+                <a href="#" class="nav-anc txt-dec-none txt-green font-size-30st font-family-1 mar-lr-20st txt-hover2 pad-5st WS-nowrap">about us</a>
+                <a href="#" class="nav-anc txt-dec-none txt-green font-size-30st font-family-1 mar-lr-20st txt-hover2 pad-5st WS-nowrap">learn more</a>
+                <a href="#" class="nav-anc txt-dec-none txt-dark font-size-30st font-family-1 mar-lr-20st txt-hover pad-5st WS-nowrap border-rad-50st">signin</a>
+                <a href="pages/signup.html" class="nav-anc txt-dec-none txt-dark font-size-30st font-family-1 mar-lr-20st txt-hover pad-5st WS-nowrap border-rad-50st">signup</a>
+                <a href="#" class="nav-anc txt-dec-none txt-white font-size-30st font-family-1 mar-lr-20st txt-hover pad-5st WS-nowrap bg-dark border-rad-50st">AR</a>
+            </div>
+       </div>
+    </div><!--end of navbar-->
+    <div class="mar-auto width-100 height-100 pos-relative"><!--section one -->
+        <!--movign menu slider-->
+        <div class="zind3 slid-div flex-col justify-center align-center bg-orang pos-fixed top-70st right-10st box-shadow-003">
+            <a href="#" class=" dis-ib txt-dec-none txt-white font-size-70st font-family-1 mar-lr-20st txt-capital txt-hover2 pad-10st WS-nowrap">about us</a>
+            <a href="#" class=" dis-ib txt-dec-none txt-white font-size-70st font-family-1 mar-lr-20st txt-capital txt-hover2 pad-10st WS-nowrap">learn more</a>
+            <a href="#" class=" dis-ib txt-dec-none txt-white font-size-70st font-family-1 mar-lr-20st txt-capital txt-hover pad-10st WS-nowrap border-rad-50st">signin</a>
+            <a href="pages/signup.html" class=" dis-ib txt-dec-none txt-white font-size-70st font-family-1 mar-lr-20st txt-capital txt-hover pad-10st WS-nowrap border-rad-50st">signup</a>
+            <a href="#" class=" dis-ib txt-dec-none txt-white font-size-70st font-family-1 mar-lr-20st txt-hover pad-5st WS-nowrap">AR</a>
+        </div>
+        <!--background and main section-->
+        <div class="flex-row justify-center align-center width-100 height-100 bg-img bg-img-res pos-relative">
+            <div class="darker-bg pos-absolute width-100 height-100 top-0 left-0"></div>
+            <div class="zind1"><p class="font-size-50st font-family-1 txt-dark bg-greena pad-lr-20st pad-tb-10st border-rad-50st text-center">you can know who loves you now</p></div>
+        </div>
+    </div><!--end section one-->
+    <div class=" flex-row justify-center align-center width-100 height-30 bg-dark"><!--footer section-->
+        <div class="flex-col justify-center align-center"><!--footer content-->
+            <div class="mar-b-40st text-center">
+                <div class="mar-t-10st dis-ib"><a href="#" class="txt-dec-none txt-white txt-hover1 font-family-1 txt-size-20st mar-20st WS-nowrap ">About</a></div>
+                <div class="mar-t-10st dis-ib"><a href="#" class="txt-dec-none txt-white txt-hover1 font-family-1 txt-size-20st mar-20st WS-nowrap ">Terms & Conditions</a></div>
+                <div class="mar-t-10st dis-ib"><a href="#" class="txt-dec-none txt-white txt-hover1 font-family-1 txt-size-20st mar-20st WS-nowrap ">Help Center</a></div>
+                <div class="mar-t-10st dis-ib"><a href="#" class="txt-dec-none txt-white txt-hover1 font-family-1 txt-size-20st mar-20st WS-nowrap ">Privacy Policy</a></div>
+            </div>
+            <div>
+                <a href="#" class="mar-lr-20st txt-white txt-hover1"><i class="fab fa-twitter  font-size-30st"></i></a>
+                <a href="#" class="mar-lr-20st txt-white txt-hover1"><i class="fab fa-facebook  font-size-30st"></i></a>
+                <a href="#" class="mar-lr-20st txt-white txt-hover1"><i class="fab fa-youtube font-size-30st"></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+<!--Here we will but jQuery cod for deferent effects-->
+<script>
+    $(".slid-div").hide();
+    $(".small-nb").click(function(){
+        $(".slid-div").toggle("slow");
+    });
+</script>
+</html>
